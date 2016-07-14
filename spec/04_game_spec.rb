@@ -137,7 +137,7 @@ describe 'Game' do
     end
   end
 
-  describe 'winner' do
+  describe '#winner' do
     it 'returns X when X won' do
       game = Game.new
       game.board.cells = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
